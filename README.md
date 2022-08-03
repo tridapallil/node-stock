@@ -1,13 +1,14 @@
-# Node.js Challenge
-"The goal of this exercise is to create a simple API with Node.js, using or not any framework of your choice, to allow users to query stock quotes. It is scaffolded with two Express apps, but you can use another backend Node.js framework of your preference.
-The project consists of two separate services:
+# Api project with server + serverless (microservice)
+The goal of this project is to do an example of how to do a project using a service to deal with main problem from a software and a serverless to deal with little things
 
-A user-facing API that will receive requests from registered users asking for quote information.
-An internal stock service that queries external APIs to retrieve the requested quote information."
+Basicly, a user-facing API that will receive requests from registered users asking for quote information.
+An internal stock service that queries external APIs to retrieve the requested quote information.
+
+You can download and use this project as a boilerplate to develop with the same architecture. 
 
 # Considerations
 
-The project was followed as described. The api service use a node and express server, to lead with some complex things, such as auth, jwt, connect to database, etc. As the stock service, was a simple service, it was chosen a serverless server to use less resources and make it simple. The serverless was developed thinking to deploy on aws lambda. As this project is running local, was used the serverless-offline to emulate aws lambda.
+The api service use a node and express server, to lead with some complex things, such as auth, jwt, connect to database, etc. As the stock service, was a simple service, it was chosen a serverless server to use less resources and make it simple. The serverless was developed thinking to deploy on aws lambda. As this project is running local, was used the serverless-offline to emulate aws lambda.
 
 # Techs and Frameworks
 
